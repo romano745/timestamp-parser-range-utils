@@ -1,0 +1,14 @@
+[project]
+name = "timestamp-parser-range-utils"
+version = "0.1.0"
+description = "Reads ISO 8601 timestamps, with fractional seconds and UTC offset, and checks they fall in a given range."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
